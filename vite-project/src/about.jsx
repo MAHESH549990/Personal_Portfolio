@@ -1,17 +1,14 @@
-import favicon from "../public/favicon.svg";
+import favicon from "./assets/hero.png";
+ let name="Mahesh Bhatt";
 function About(){
   return(
-    <>
-      <div>
-        <img src={favicon} alt="React default image"></img>
-        <h4>
-          Mahesh Bhatt
-          <hr />
-          <br/>
-          BCA(AI&DS)
-        </h4>
-        
-      </div>
+    <>  
+       <div>
+             <img src={favicon} className="image" alt="React default image"></img>
+       </div>
+      <h4>Name: {name}</h4>
+      <p>2*2: {2*2}</p>
+    
     </>
   )
 }
